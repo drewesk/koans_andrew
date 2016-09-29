@@ -33,6 +33,7 @@ class AboutNil < Neo::Koan
     # or
     #    obj == nil
     # Why?
+    # obj.nil? shows your intention better.
   end
 
 end
