@@ -6,11 +6,11 @@ class AboutObjects < Neo::Koan
     assert_equal true, 1.5.is_a?(Object)
     assert_equal true, "string".is_a?(Object)
     assert_equal true, nil.is_a?(Object)
-    assert_equal __, Object.is_a?(Object)
+    assert_equal true, Object.is_a?(Object)
   end
 
   def test_objects_can_be_converted_to_strings
-    assert_equal __, 123.to_s
+    assert_equal 123, 123.to_s
     assert_equal __, nil.to_s
   end
 
